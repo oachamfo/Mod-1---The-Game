@@ -3,6 +3,7 @@
 }
 html, body{
     height: 100%;
+    width: 100%
 }
 
 .flex-container{
@@ -52,7 +53,7 @@ html, body{
 #footer{
     width: 100%;
     height:6%;
-    float: left;
     background-color: #AA151B;
+    text-align: center;
 
 }
