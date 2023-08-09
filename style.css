@@ -1,0 +1,58 @@
+#gameTitle{
+    text-align: center;
+}
+html, body{
+    height: 100%;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+       
+}
+
+#header{
+    width: 100%;
+    height: 10%;
+    background-color:#AA151B;
+    text-align: center;
+    float: left;
+}
+
+
+#leftNav{
+    width: 20%;
+    height: 100%;
+    box-sizing: border-box;
+    border-style: double;
+    border-color: #F1BF00;
+    background-color: #AA151B;
+    
+}
+
+#rightNav{
+    width: 10%;
+    height: 100%;
+    box-sizing: border-box;
+    border-style: double;
+    border-color: #F1BF00;
+    background-color: #AA151B;
+}
+
+#contentArea{
+    width: 70%;
+    height: 100%;
+    display: grid;
+    background-color: #F1BF00;
+}
+
+
+#footer{
+    width: 100%;
+    height:6%;
+    float: left;
+    background-color: #AA151B;
+
+}
