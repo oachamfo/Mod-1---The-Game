@@ -3,14 +3,15 @@ html, body{
     width: 100%
 }
 
-#header{
+#flex-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 10%;
     background-color:#AA151B;
     float: left;
-}
-#header #gameTitle{
-    text-align: center;
+
 }
 
 .flex-container{
@@ -19,7 +20,7 @@ html, body{
     width: 100%;
     height: 100%;       
 }
-#leftNav{
+#left-nav{
     width: 20%;
     height: 100%;
     box-sizing: border-box;
@@ -27,16 +28,18 @@ html, body{
     border-color: #F1BF00;
     background-color: #AA151B;    
 }
-#gridContentArea{
+#grid-content-area{
     width: 70%;
     height: 100%;
     background-color: #F1BF00;
-    
-    /* display:grid works together with subsequent key value pairs to give gridContentArea div element grid effect*/
+    box-sizing: border-box;
+   
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
+    /* display:grid works together with subsequent key value pairs to give gridContentArea div element grid effect*/
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 0px 0px;
 }
-#rightNav{
+#right-nav{
     width: 10%;
     height: 100%;
     box-sizing: border-box;
@@ -45,7 +48,17 @@ html, body{
     background-color: #AA151B;
 }
 
-#footer{
+#grid-content-area > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+}
+
+#flex-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height:6%;
     background-color: #AA151B;
