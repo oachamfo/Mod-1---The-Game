@@ -11,18 +11,16 @@
     <script src="Player.js" defer></script>
     <script src="app.js" defer></script>
 
+    <!--title to be displayed in browser's tab-->
     <title>Mod 1 - The Game: SpanishVocab CSSFlashCards</title>
 </head>
 <body>
         <!--header-->
-        <div id="header"><h1>SpanishVocab CSSFlashCards</h1></div>
-        <!--middle content in a flex div-->
+        <div id="header"><h1 id="gameTitle">SpanishVocab CSSFlashCards</h1></div>
+        <!--flex div with three divs: leftNav, contentArea, rightNav-->
         <div class="flex-container">
             <div id="leftNav">leftNav</div>
-            <div id="contentArea">
-               <div> </div>
-               <div></div>
-            </div>
+            <div id="gridContentArea"></div>
             <div id="rightNav">rightNav</div>
         </div>
         <!--footer-->

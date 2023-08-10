@@ -1,38 +1,41 @@
-#gameTitle{
-    text-align: center;
-}
 html, body{
     height: 100%;
     width: 100%
-}
-
-.flex-container{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-       
 }
 
 #header{
     width: 100%;
     height: 10%;
     background-color:#AA151B;
-    text-align: center;
     float: left;
 }
+#header #gameTitle{
+    text-align: center;
+}
 
-
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;       
+}
 #leftNav{
     width: 20%;
     height: 100%;
     box-sizing: border-box;
     border-style: double;
     border-color: #F1BF00;
-    background-color: #AA151B;
-    
+    background-color: #AA151B;    
 }
-
+#gridContentArea{
+    width: 70%;
+    height: 100%;
+    background-color: #F1BF00;
+    
+    /* display:grid works together with subsequent key value pairs to give gridContentArea div element grid effect*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
+}
 #rightNav{
     width: 10%;
     height: 100%;
@@ -42,18 +45,11 @@ html, body{
     background-color: #AA151B;
 }
 
-#contentArea{
-    width: 70%;
-    height: 100%;
-    display: grid;
-    background-color: #F1BF00;
-}
-
-
 #footer{
     width: 100%;
     height:6%;
     background-color: #AA151B;
     text-align: center;
-
+    font-size: larger;
+    font-weight: bold;
 }
