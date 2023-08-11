@@ -8,9 +8,21 @@
     <link rel="stylesheet" href="style.css">
     
     <!--Javascript-->
+    
+         <!--classes-->
     <script src="Player.js" defer></script>
+    <script src="FlashCard.js" defer></script>
+    
+        <!--global functions-->
     <script src="create-children-divs.js" defer></script>
-    <script src="app.js" defer></script>
+    <script src="provide-stats.js" defer></script>
+    <script src="set-number-of-cards.js" defer></script>
+    <script src="set-flash-cards-array.js" defer></script>
+
+        <!--main JS file-->      
+        <script src="flash-card-db.js" defer></script>
+ 
+        <script src="app.js" defer></script>
    
     <!--title to be displayed in browser's tab-->
     <title>Mod 1 - The Game: SpanishVocab CSSFlashCards</title>
@@ -18,11 +30,11 @@
 <body>
         <!--header-->
         <div id="flex-header"><h1 id="game-title">SpanishVocab CSSFlashCards</h1></div>
-        <!--flex div with three divs: leftNav, contentArea, rightNav-->
+        <!--flex div with three divs: left-nav, grid-content-area, right-nav-->
         <div class="flex-container">
-            <div id="left-nav">leftNav</div>
+            <div id="left-nav"></div>
             <div id="grid-content-area"></div>
-            <div id="right-nav">rightNav</div>
+            <div id="right-nav"></div>
         </div>
         <!--footer-->
         <div id="flex-footer">Copyright Owusuduah Achamfour</div>

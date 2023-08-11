@@ -1,6 +1,5 @@
-//create children divs that will fill grid
-function createChildrenDivs (numberOfCards){
-    let gridContentArea = document.querySelector('#grid-content-area');   
+//create children divs that will fill #grid-content-area
+function createChildrenDivs (numberOfCards){ 
        for(i=1; i<=numberOfCards; i++){
            let childDiv = document.createElement("div");
            childDiv.classList.add("flash-card")
