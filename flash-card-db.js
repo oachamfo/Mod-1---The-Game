@@ -8,7 +8,15 @@ card1B.comparatorID = 1;
 card1B.contentType = "text";
 card1B.htmlCode = "una manzana";
 
+const card2A = new FlashCard();
+card2A.comparatorID = 2;
+card2A.contentType = "pic";
+card2A.htmlCode = `<img class="flash-card" src="https://cdn-anini.nitrocdn.com/YXYWQiDcFcdQfctewEkORZwdFNalbmHA/assets/images/optimized/rev-b8bf1bc/wp-content/uploads/2016/01/Black-Beans.jpg">`
+
+const card2B= new FlashCard();
+card2B.comparatorID = 2;
+card2B.contentType  = "text";
+card2B.htmlCode = "frijoles negros"
 
 
-
-const flashCardsDb = [card1A, card1B];
+const flashCardsDb = [card1A, card1B, card2A, card2B];

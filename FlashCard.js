@@ -1,3 +1,3 @@
 class FlashCard{
-    ID; content; html;
+    comparatorID; contentType; htmlCode;
 }

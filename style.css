@@ -66,7 +66,12 @@ html, body{
     font-size: larger;
     font-weight: bold;
 }
-img .flash-card{
-    width: 10px;
-    height: 5px;
+img.flash-card{
+    max-width: 50%;
+    max-height: 50%;
+}
+.flash-card{
+    font-stretch: expanded;
+    font-size: larger;
+    font-weight: bolder;
 }
