@@ -66,3 +66,7 @@ html, body{
     font-size: larger;
     font-weight: bold;
 }
+img .flash-card{
+    width: 10px;
+    height: 5px;
+}

@@ -3,7 +3,7 @@ function createChildrenDivs (numberOfCards){
        for(i=1; i<=numberOfCards; i++){
            let childDiv = document.createElement("div");
            childDiv.classList.add("flash-card")
-           childDiv.innerText = 'Div '+ i;
+           //childDiv.innerText = i;
            gridContentArea.appendChild(childDiv);
        }
    

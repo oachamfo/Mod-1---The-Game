@@ -17,8 +17,9 @@ let flashCardsArray;
 
 
 //function calls
-setNumberOfCards(12);
+setNumberOfCards(32);
 createChildrenDivs(numberOfCards);
 provideStats();
 setFlashCardsArray();
-//fillChildrenDivsWithFlashCards();
+fillChildrenDivsWithFlashCards();
+addEventListenerToFlashCards();
