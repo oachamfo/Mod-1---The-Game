@@ -8,7 +8,9 @@ function addEventListenerToFlashCards(){
         childDiv.addEventListener('click', function(e){
             //make element unclickable to prevent the same flash card from being selected twice
             e.target.style.pointerEvents = "none";
-            
+            //increment numberOfClicks
+            numberOfCardClicks++;
+
             if (clickNumber<2){
             childDiv.style.border = "dotted";
            // length = childrenDivs.length;

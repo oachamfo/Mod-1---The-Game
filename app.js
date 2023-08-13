@@ -1,26 +1,34 @@
-//declare globals
+//declare data types of global scope
+let roundNumber=1; //must be initialized to 1
 let numberOfCards;  //call setNumberOfCards() to initialize
-let roundNumber;
-let maxNumOfStrikes = 3; //number of strikes allowed
-let clickNumber = 0; //will be either 1 or 2
-let firstClickIndex; //index of an array
-let secondClickIndex; //index of an array
+let numberOfCardClicks=0; //must be initialized to 0
+let numberOfStrikes=0; //must be initialized to 0
+let maxNumOfStrikes=3; //number of strikes allowed; must be initialized
+let clickNumber=0; //must be initialized to 0; range of value will be either 0 or 1
+let firstClickIndex; //index of flashCardsArray
+let secondClickIndex; //index of flashCardsArray
 
+//strings
+let outcomeMessageOfLatestClickPair ="";
+
+//querySelector()
 const leftDiv = document.querySelector('#left-nav'); 
 const gridContentArea = document.querySelector('#grid-content-area');   
 const rightDiv = document.querySelector('#right-nav');
 
+let currentPlayerIndex = 0; //index of playersArray
 
-let currentPlayer = 0; //index of playersArra
+//data structures of global scope
 let flashCardsDbCopy = [...flashCardsDb]; //use spread operator to copy flashCardsDb;
-let flashCardsArray;
-
+let flashCardsArray = [];
+let playersArray = [];
 
 
 
 //function calls
-setNumberOfCards(4);
-createChildrenDivs(numberOfCards);
+setPlayersArray(); //create players
+setNumberOfCards(4); //number of cards
+createChildrenDivs(numberOfCards); //create cards on screen
 provideStats();
 setFlashCardsArray();
 //fillChildrenDivsWithFlashCards();
