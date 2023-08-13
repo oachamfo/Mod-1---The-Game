@@ -1,5 +1,8 @@
-function nextPlayer(){
-if (currentPlayerIndex == 0){
+async function nextPlayer(){
+    //wait three seconds before clearing the grid for next player
+    await timeDelay(3);
+
+    if (currentPlayerIndex == 0){
     currentPlayerIndex = 1;
 }else{
     currentPlayerIndex = 0;

@@ -30,7 +30,7 @@ let playersArray = [];
 
 //function calls
 setPlayersArray(); //create players
-setNumberOfCards(6); //number of cards
+setNumberOfCards(8); //number of cards
 createChildrenDivs(numberOfCards); //create cards on screen
 provideStats();
 setFlashCardsArray();
