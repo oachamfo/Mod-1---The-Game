@@ -1,5 +1,10 @@
 //create children divs that will fill #grid-content-area
 function createChildrenDivs (numberOfCards){ 
+    //check to see if game is over
+    if(roundNumber==maxNumOfRounds+1){
+        gameOver();
+
+   }else{
     gridContentArea.innerHTML="";
         for(i=1; i<=numberOfCards; i++){
            let childDiv = document.createElement("div");
@@ -15,5 +20,6 @@ function createChildrenDivs (numberOfCards){
            childrenDivs[i].style.height = "50%";
            }
        }
-   }
+    }
+    }
    

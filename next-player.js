@@ -12,7 +12,7 @@ let secondClickIndex; //index of flashCardsArray
 flashCardsDbCopy = [];
 flashCardsDbCopy = [...flashCardsDb]; //use spread operator to copy flashCardsDb;
 flashCardsArray = [];
-
+outcomeMessageOfLatestClickPair = "";
 createChildrenDivs(numberOfCards);
 setFlashCardsArray();
 addEventListenerToFlashCards();

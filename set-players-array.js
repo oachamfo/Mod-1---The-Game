@@ -1,9 +1,11 @@
 function setPlayersArray(){
     const player1 = new HumanPlayer();
     player1.name = "Player 1";
+    player1.score = 0;
 
     const player2 = new HumanPlayer();
     player2.name = "Player 2";
+    player2.score = 0;
     
     playersArray = [player1, player2];
 }

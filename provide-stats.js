@@ -5,6 +5,11 @@ function provideStats(){
     childHeading.innerText = "Player: "+playersArray[currentPlayerIndex].name;
     rightDiv.appendChild(childHeading);
 
+    let childHeading4 = document.createElement('h2');
+    childHeading4.innerText = "Score: "+playersArray[currentPlayerIndex].score;
+    rightDiv.appendChild(childHeading4);
+
+
     let childHeading1 = document.createElement('h2');
     childHeading1.innerText = "Round: "+roundNumber;
     rightDiv.appendChild(childHeading1);

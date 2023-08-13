@@ -1,6 +1,7 @@
 function checkForMatch(){
 if (flashCardsArray[firstClickIndex].comparatorID == flashCardsArray[secondClickIndex].comparatorID){
     outcomeMessageOfLatestClickPair ="Great! You matched.";
+    playersArray[currentPlayerIndex].score +=2;
     provideStats();
 }
  else{

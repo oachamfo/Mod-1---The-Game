@@ -1,5 +1,6 @@
 //declare data types of global scope
 let roundNumber=1; //must be initialized to 1
+let maxNumOfRounds=3; //must be initialized
 let numberOfCards;  //call setNumberOfCards() to initialize
 let numberOfCardClicks=0; //must be initialized to 0
 let numberOfStrikes=0; //must be initialized to 0
