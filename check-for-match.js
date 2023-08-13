@@ -9,5 +9,6 @@ if (flashCardsArray[firstClickIndex].comparatorID == flashCardsArray[secondClick
    provideStats();
 }
 clickNumber = 0; //reset clickNumber
+checkIfTimeForNextRound();
 checkIfTimeForNextPlayer();
 }
