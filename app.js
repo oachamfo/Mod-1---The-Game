@@ -30,9 +30,9 @@ let playersArray = [];
 
 //function calls
 setPlayersArray(); //create players
-setNumberOfCards(8); //number of cards
+setNumberOfCards(10); //number of cards
 createChildrenDivs(numberOfCards); //create cards on screen
 provideStats();
 setFlashCardsArray();
 addEventListenerToFlashCards();
-//fillChildrenDivsWithFlashCards();
+//fillChildrenDivsWithFlashCards(); //uncomment to have a matching mode of playing the game instead of a guessing mode

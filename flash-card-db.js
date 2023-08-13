@@ -42,9 +42,21 @@ card4B.comparatorID = 4;
 card4B.contentType  = "text";
 card4B.htmlCode = "lechuga"
 
+//card 5
+const card5A = new FlashCard();
+card5A.comparatorID = 5;
+card5A.contentType = "pic";
+card5A.htmlCode = `<img class="flash-card" src="/images/pen.png">`
+
+const card5B= new FlashCard();
+card5B.comparatorID = 5;
+card5B.contentType  = "text";
+card5B.htmlCode = "un bolígrafo"
 
 
 
 
 
-const flashCardsDb = [card1A, card1B, card2A, card2B, card3A, card3B, card4A, card4B];
+
+
+const flashCardsDb = [card1A, card1B, card2A, card2B, card3A, card3B, card4A, card4B, card5A, card5B];
