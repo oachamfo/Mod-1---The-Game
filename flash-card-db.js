@@ -1,7 +1,7 @@
 const card1A = new FlashCard();
 card1A.comparatorID = 1;
 card1A.contentType = "pic";
-card1A.htmlCode = `<img class="flash-card" src="data:image/png;base64,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">`;
+card1A.htmlCode = `<img class="flash-card" src="/images/apple.png">`
 
 const card1B = new FlashCard();
 card1B.comparatorID = 1;
@@ -11,12 +11,25 @@ card1B.htmlCode = "una manzana";
 const card2A = new FlashCard();
 card2A.comparatorID = 2;
 card2A.contentType = "pic";
-card2A.htmlCode = `<img class="flash-card" src="https://cdn-anini.nitrocdn.com/YXYWQiDcFcdQfctewEkORZwdFNalbmHA/assets/images/optimized/rev-b8bf1bc/wp-content/uploads/2016/01/Black-Beans.jpg">`
+card2A.htmlCode = `<img class="flash-card" src="/images/black-beans.png">`
 
 const card2B= new FlashCard();
 card2B.comparatorID = 2;
 card2B.contentType  = "text";
 card2B.htmlCode = "frijoles negros"
 
+//card 3
+const card3A = new FlashCard();
+card3A.comparatorID = 3;
+card3A.contentType = "pic";
+card3A.htmlCode = `<img class="flash-card" src="/images/car.png">`
 
-const flashCardsDb = [card1A, card1B, card2A, card2B];
+const card3B= new FlashCard();
+card3B.comparatorID = 3;
+card3B.contentType  = "text";
+card3B.htmlCode = "un coche"
+
+
+
+
+const flashCardsDb = [card1A, card1B, card2A, card2B, card3A, card3B];

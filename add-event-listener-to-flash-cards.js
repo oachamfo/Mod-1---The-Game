@@ -17,7 +17,7 @@ function addEventListenerToFlashCards(){
             for(i=0; i<length; i++){
                 if(e.target.classList.contains('index'+i)){
             let object = flashCardsArray[i];
-            
+
             if(clickNumber==0){
                 firstClickIndex = i;
             }else{secondClickIndex = i;}

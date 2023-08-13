@@ -8,16 +8,18 @@ let maxNumOfStrikes=3; //number of strikes allowed; must be initialized
 let clickNumber=0; //must be initialized to 0; range of value will be either 0 or 1
 let firstClickIndex; //index of flashCardsArray
 let secondClickIndex; //index of flashCardsArray
+let currentPlayerIndex = 0; //index of playersArray
+
 
 //strings
 let outcomeMessageOfLatestClickPair ="";
 
 //querySelector()
+const flexContainer = document.querySelector('.flex-container');
 const leftDiv = document.querySelector('#left-nav'); 
 const gridContentArea = document.querySelector('#grid-content-area');   
 const rightDiv = document.querySelector('#right-nav');
 
-let currentPlayerIndex = 0; //index of playersArray
 
 //data structures of global scope
 let flashCardsDbCopy = [...flashCardsDb]; //use spread operator to copy flashCardsDb;
@@ -28,9 +30,9 @@ let playersArray = [];
 
 //function calls
 setPlayersArray(); //create players
-setNumberOfCards(4); //number of cards
+setNumberOfCards(6); //number of cards
 createChildrenDivs(numberOfCards); //create cards on screen
 provideStats();
 setFlashCardsArray();
-//fillChildrenDivsWithFlashCards();
 addEventListenerToFlashCards();
+//fillChildrenDivsWithFlashCards();
