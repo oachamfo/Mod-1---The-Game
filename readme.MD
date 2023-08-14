@@ -21,8 +21,13 @@
     Players take turn. In each turn, a player clicks on two boxes. 
     The order in which the cards are clicked, whether picture first or written text first 
     is irrelevant. If the two cards the player clicked match, the player scores points.
-    If a player does not get a match, the player gets a strike. The maximum number of strikes is by default three. After a player clicks on all cards or a player strikes out, whichever comes first, the next player takes turn. A round is completed when all players have taken a turn. The player with the most points after three rounds wins the game. All other players lose. Although the game is by default two players,
-    the code is written so that it can be scaled to add more players by adding players to the array of players.
+    If a player does not get a match, the player gets a strike. The maximum number 
+    of strikes is by default three. After a player clicks on all cards or a player 
+    strikes out, whichever comes first, the next player takes turn. A round is completed 
+    when all players have taken a turn. The player with the most points after three 
+    rounds wins the game. All other players lose. Although the game is by default two players,
+    the code is written so that it can be scaled to add more players by adding 
+    players to the array of players.
 
     ##Built With
     The technologies used are HTML, CSS, and JavaScript. No winners here: both CSS Grid and CSS Flexbox were used. CSS Grid was used to layout the grid that the player will click on. However, CSS Flexbox was used for the overall layout of the page such as header, body, and footer. Flexbox housed the Grid.
