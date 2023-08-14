@@ -22,8 +22,6 @@ outcomeMessageOfLatestClickPair = "";
 provideStats();   
 createChildrenDivs(numberOfCards);
 setFlashCardsArray();
-addEventListenerToFlashCards();
-provideStats();   
-//fillChildrenDivsWithFlashCards(); //uncomment to have a matching mode of playing the game instead of a guessing mode
-
+fillChildrenDivsWithFlashCards(); //comment out for guessing mode instead of a matching mode
+clearGrid();
 }

@@ -34,5 +34,6 @@ setNumberOfCards(16); //number of cards
 createChildrenDivs(numberOfCards); //create cards on screen
 provideStats();
 setFlashCardsArray();
-addEventListenerToFlashCards();
-//fillChildrenDivsWithFlashCards(); //uncomment to have a matching mode of playing the game instead of a guessing mode
+//fillChildrenDivsWithFlashCards() must be invoked after setFlashCardsArray()
+fillChildrenDivsWithFlashCards(); //comment out for guessing mode instead of a matching mode
+clearGrid();

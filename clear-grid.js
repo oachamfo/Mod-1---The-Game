@@ -1,10 +1,18 @@
-function clearGrid(){
+async function clearGrid(){
+    await timeDelay(10);
+    
     let childrenDivs = gridContentArea.children; //returns HTML collection
-     length = flashCardsArray.length;
-     for(i=0; i<length; i++){
+    length = flashCardsArray.length;
+    
+    for(i=0; i<length; i++){
          let childDiv = childrenDivs[i];
          let object = flashCardsArray[i];
          childDiv.innerHTML = "";
- 
-     }   
+     }    
+    
+
+/*addEventListenerToFlashCards() comes after clearGrid();*/
+addEventListenerToFlashCards();
+provideStats();   
+
 }
