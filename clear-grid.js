@@ -1,4 +1,5 @@
 async function clearGrid(){
+  if (isGameOver==false){
     await timeDelay(1);
     
     let childrenDivs = gridContentArea.children; //returns HTML collection
@@ -14,5 +15,5 @@ async function clearGrid(){
 /*addEventListenerToFlashCards() comes after clearGrid();*/
 addEventListenerToFlashCards();
 provideStats();   
-
+    }
 }

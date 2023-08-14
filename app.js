@@ -9,7 +9,7 @@ let clickNumber=0; //must be initialized to 0; range of value will be either 0 o
 let firstClickIndex; //index of flashCardsArray
 let secondClickIndex; //index of flashCardsArray
 let currentPlayerIndex = 0; //index of playersArray
-
+let isGameOver = false; //must be initialized to false
 
 //strings
 let outcomeMessageOfLatestClickPair ="";
@@ -28,12 +28,12 @@ let playersArray = [];
 
 
 
-//function calls
+/*function calls*/
 setPlayersArray(); //create players
 setNumberOfCards(16); //number of cards
 createChildrenDivs(numberOfCards); //create cards on screen
 provideStats();
 setFlashCardsArray();
-//fillChildrenDivsWithFlashCards() must be invoked after setFlashCardsArray()
+/*fillChildrenDivsWithFlashCards() must be invoked after setFlashCardsArray()*/
 fillChildrenDivsWithFlashCards(); //comment out for guessing mode instead of a matching mode
 clearGrid();

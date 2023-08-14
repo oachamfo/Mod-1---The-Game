@@ -1,4 +1,5 @@
 function fillChildrenDivsWithFlashCards(){
+    if(isGameOver==false){
     let childrenDivs = gridContentArea.children; //returns HTML collection
    //console.log(flashCardsArray);
     length = flashCardsArray.length;
@@ -10,4 +11,5 @@ function fillChildrenDivsWithFlashCards(){
         childDiv.innerHTML = object.htmlCode;
 
     }   
+}
 }

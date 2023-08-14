@@ -1,12 +1,15 @@
 async function gameOver(){
+    isGameOver = true;
 
     /*clear gridContentArea*/
     clearGridAtEndOfGame();
     
-    /*await timeDelay() is used to pause the execution of lines of code below
-    without await timeDelay(), clearGridAtEndOfGame() and code down below will
+    /*await timeDelay() is used to pause the execution of lines of code below.
+    Without await timeDelay(), clearGridAtEndOfGame() and code down below will
     be executed synchronously, which leads to undesired results. The end of game
-    stats will not be displayed.
+    stats will not be displayed. setTimeout could have been used, but all the
+    numerous lines of code will be contained in a callback function or will have to be
+    put in a separate function and then passed to setTimeout.
     */
     await timeDelay(2);
 

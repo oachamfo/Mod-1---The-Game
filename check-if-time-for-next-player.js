@@ -1,6 +1,5 @@
 function checkIfTimeForNextPlayer(){
     if(numberOfStrikes==maxNumOfStrikes || numberOfCardClicks == numberOfCards){       
-        
         //disable click funtionality if player strikes out
         //player can no longer click on remaining cards
         if (numberOfStrikes==maxNumOfStrikes){
@@ -10,8 +9,8 @@ function checkIfTimeForNextPlayer(){
                 disableCards[i].style.pointerEvents = "none";
             }
         }
-
-        nextPlayer();
+        if(isGameOver==false){
+        nextPlayer();}
     }else{
         return;
     }
