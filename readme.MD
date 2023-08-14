@@ -32,9 +32,12 @@
     ##Built With
     The technologies used are HTML, CSS, and JavaScript. Both CSS Grid and CSS Flexbox were used. CSS Grid was used to layout the grid that the player will click on. However, CSS Flexbox was used for the overall layout of the page such as header, body, and footer. Flexbox housed the Grid.
 
-#How To Use
+#How To Use Code Base
 The code base of this project can be used as the basis for a memory game. The grid can be expanded and players can be given x seconds to memorize the items on the grid. The grid can then be cleared. The player will then have to, from recall, click on the grid in such a way that the second click must be the homologue for the first click. After a player clicks on a box, the content that was there before the grid was cleared 
-will be displayed. The player continues to click in pairs until all the boxes have been clicked or a player strikes out. A player gets a strike when a click pair results is not a homologue. Sound may also be added to provide native level pronunciation in the case of the code being used for second language learning.
+will be displayed. The player continues to click in pairs until all the boxes have been clicked or a player strikes out. A player gets a strike when a click pair results is not a homologue. Sound may also be added to provide native level pronunciation in the case of the code being used for second language learning. Other improvements could include giving the user the ability to make and save lists of words to include on the grid, and the ability for users to share lists and scores on social media platforms.
+
+#Recommended Strategy To Play Game
+Play the game a few times to find out the minimum number of pairs that you can comfortably remember. And then aim to remember one more pair until it becomes comfortable.
 
 #Installation
 No special installation instructions. No backend DB to set up. Just deploy as one would a website.
