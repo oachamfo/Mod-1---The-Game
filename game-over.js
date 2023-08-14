@@ -1,6 +1,7 @@
 function gameOver(){
 
     //clear gridContentArea
+    
     //gridContentArea.firstElementChild may substitute gridContentArea.lastElementChild
     let child = gridContentArea.lastElementChild; 
     while (child) {
@@ -8,7 +9,25 @@ function gameOver(){
         child = gridContentArea.lastElementChild;
     }
     
-   
+    while (gridContentArea.hasChildNodes()) {
+        gridContentArea.removeChild(gridContentArea.firstChild);
+      }
+
+    let remainigFlashCards = document.querySelectorAll('.flash-card');
+    while (child) {
+        remainigFlashCards.removeChild(child);
+        child = remainigFlashCards.lastElementChild;
+    }
+
+    while (rightDiv.hasChildNodes()) {
+        rightDiv.removeChild(rightDiv.firstChild);
+      }
+     
+    rightDiv.innerHTML = "";
+    
+    clearGrid();
+
+    //write game over stats to gridContentArea
     gridContentArea.innerHTML = "<h1>Game Over</h1>";
     let gameOverChildHeading = document.createElement('h2');
     gameOverChildHeading.innerText = "Player 1 score: "+playersArray[0].score + " Player 2 score: "+playersArray[1].score

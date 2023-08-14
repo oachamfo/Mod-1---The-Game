@@ -1,7 +1,7 @@
 //create children divs that will fill #grid-content-area
 function createChildrenDivs (numberOfCards){ 
     //check to see if game is over
-    if(roundNumber==maxNumOfRounds+1){
+    if(roundNumber>=(maxNumOfRounds+1)){
         gameOver();
 
    }else{
