@@ -17,8 +17,15 @@ async function gameOver(){
     gridContentArea.innerHTML = "<h2>Game Over</h2>";
    
     let gameOverChildHeading = document.createElement('h2');
-    gameOverChildHeading.innerText = "Player 1 score: "+playersArray[0].score + " Player 2 score: "+playersArray[1].score
+    gameOverChildHeading.innerText = "Player 1 score: "+playersArray[0].score;
     gridContentArea.appendChild(gameOverChildHeading);
+
+    
+    let gameOverChildHeading2 = document.createElement('h2');
+    gameOverChildHeading2.innerHTML = "Player 2 score: "+playersArray[1].score;
+    gridContentArea.appendChild(gameOverChildHeading2);
+
+    
 
    if(playersArray[0].score > playersArray[1].score){
     let gameOverChildHeading1 = document.createElement('h2');
