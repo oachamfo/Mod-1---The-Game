@@ -1,5 +1,5 @@
 async function clearGrid(){
-    await timeDelay(10);
+    await timeDelay(1);
     
     let childrenDivs = gridContentArea.children; //returns HTML collection
     length = flashCardsArray.length;

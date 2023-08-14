@@ -1,10 +1,18 @@
-function gameOver(){
+async function gameOver(){
 
     /*clear gridContentArea*/
     clearGridAtEndOfGame();
+    
+    /*await timeDelay() is used to pause the execution of lines of code below
+    without await timeDelay(), clearGridAtEndOfGame() and code down below will
+    be executed synchronously, which leads to undesired results. The end of game
+    stats will not be displayed.
+    */
+    await timeDelay(2);
 
     /*write game over stats to gridContentArea*/
     gridContentArea.innerHTML = "<h1>Game Over</h1>";
+   
     let gameOverChildHeading = document.createElement('h2');
     gameOverChildHeading.innerText = "Player 1 score: "+playersArray[0].score + " Player 2 score: "+playersArray[1].score
     gridContentArea.appendChild(gameOverChildHeading);
