@@ -1,3 +1,4 @@
+
 //card 1
 const card1A = new FlashCard();
 card1A.comparatorID = 1;
@@ -64,10 +65,28 @@ card6B.comparatorID = 6;
 card6B.contentType  = "text";
 card6B.htmlCode = "un ordenador"
 
+//card 7
+const card7A = new FlashCard();
+card7A.comparatorID = 7;
+card7A.contentType = "pic";
+card7A.htmlCode = `<img class="flash-card" src="images/waving-hand.png">`
+
+const card7B= new FlashCard();
+card7B.comparatorID = 7;
+card7B.contentType  = "text";
+card7B.htmlCode = "hola"
+
+//card 8
+const card8A = new FlashCard();
+card8A.comparatorID = 8;
+card8A.contentType = "pic";
+card8A.htmlCode = `<img class="flash-card" src="images/doctor.png">`
+
+const card8B= new FlashCard();
+card8B.comparatorID = 8;
+card8B.contentType  = "text";
+card8B.htmlCode = "un médico"
+
+const flashCardsDb = [card1A, card1B, card2A, card2B, card3A, card3B, card4A, card4B, card5A, card5B, card6A, card6B, card7A, card7B, card8A, card8B];
 
 
-
-
-
-
-const flashCardsDb = [card1A, card1B, card2A, card2B, card3A, card3B, card4A, card4B, card5A, card5B, card6A, card6B];

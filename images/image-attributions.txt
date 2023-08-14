@@ -10,8 +10,14 @@ https://icons8.com/icon/80388/car
 computer
 https://icons8.com/icon/12908/workstation
 
+doctor
+https://icons8.com/icon/9DTrL6ExRElC/man-health-worker
+
 lettuce
 https://icons8.com/icon/70469/lettuce
 
 pen
 https://icons8.com/icon/Vk1hVre0P58T/pen
+
+waving hand
+https://icons8.com/icon/dlN23b953qvQ/waving-hand-light-skin-tone
