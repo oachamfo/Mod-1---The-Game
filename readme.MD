@@ -1,12 +1,12 @@
-#About Project
-    ##Title
+# About Project
+    ## Title
     Title: Mod 1 - The Game: SpanishVocab CSS Grid
     DOM manipulations can create interactive GUI applications and games using JavaScript.
     This game demonstrates manipulation of the DOM and how DOM manipulation is used in JavaScript game development. The default mode of the game is a guessing game. A player is shown an empty grid. A player makes a first click on a box (also called a flash card). The player is shown either a picture or text. The player must guess and make a second click on another box that will show a corresponding picture or text. If the player guesses appropriately, a match is found. If not, the player gets a strike.
     The game can be modified by calling functions that can make the game a memory game. In the memory variation, the player will have x seconds to memorize the items on a grid. The player will then have to
     recall the grid and click on the grid in such a way that the second click is a pair of the first click.
     
-    ##Motivation
+    ## Motivation
     This project was built as a requirement for a PerScholas software engineering cohort.
     Students were give a week for completion. Per project specifications, game had to meet
     the following:
@@ -29,21 +29,21 @@
     the code is written so that it can be scaled to add more players by adding 
     players to the array of players.
 
-    ##Built With
+    ## Built With
     The technologies used are HTML, CSS, and JavaScript. Both CSS Grid and CSS Flexbox were used. CSS Grid was used to layout the grid that the player will click on. However, CSS Flexbox was used for the overall layout of the page such as header, body, and footer. Flexbox housed the Grid.
 
-#How To Use Code Base
+# How To Use Code Base
 The code base of this project can be used as the basis for a memory game. The grid can be expanded and players can be given x seconds to memorize the items on the grid. The grid can then be cleared. The player will then have to, from recall, click on the grid in such a way that the second click must be the homologue for the first click. After a player clicks on a box, the content that was there before the grid was cleared 
 will be displayed. The player continues to click in pairs until all the boxes have been clicked or a player strikes out. A player gets a strike when a click pair results is not a homologue. Sound may also be added to provide native level pronunciation in the case of the code being used for second language learning. Other improvements could include giving the user the ability to make and save lists of words to include on the grid, and the ability for users to share lists and scores on social media platforms.
 
-#Recommended Strategy To Play Game
+# Recommended Strategy To Play Game
 Play the game a few times to find out the minimum number of pairs that you can comfortably remember. And then aim to remember one more pair until it becomes comfortable.
 
-#Installation
+# Installation
 No special installation instructions. No backend DB to set up. Just deploy as one would a website.
 
-#License
+# License
 MIT (c) Owusuduah Achamfour
 
-#Link to Game
+# Link to Game
 https://oachamfo.github.io/Mod-1---The-Game/
