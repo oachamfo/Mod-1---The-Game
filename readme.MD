@@ -1,12 +1,12 @@
 # About Project
-    ## Title
+## Title
     Title: Mod 1 - The Game: SpanishVocab CSS Grid
     DOM manipulations can create interactive GUI applications and games using JavaScript.
     This game demonstrates manipulation of the DOM and how DOM manipulation is used in JavaScript game development. The default mode of the game is a guessing game. A player is shown an empty grid. A player makes a first click on a box (also called a flash card). The player is shown either a picture or text. The player must guess and make a second click on another box that will show a corresponding picture or text. If the player guesses appropriately, a match is found. If not, the player gets a strike.
     The game can be modified by calling functions that can make the game a memory game. In the memory variation, the player will have x seconds to memorize the items on a grid. The player will then have to
     recall the grid and click on the grid in such a way that the second click is a pair of the first click.
     
-    ## Motivation
+## Motivation
     This project was built as a requirement for a PerScholas software engineering cohort.
     Students were give a week for completion. Per project specifications, game had to meet
     the following:
@@ -29,7 +29,7 @@
     the code is written so that it can be scaled to add more players by adding 
     players to the array of players.
 
-    ## Built With
+## Built With
     The technologies used are HTML, CSS, and JavaScript. Both CSS Grid and CSS Flexbox were used. CSS Grid was used to layout the grid that the player will click on. However, CSS Flexbox was used for the overall layout of the page such as header, body, and footer. Flexbox housed the Grid.
 
 # How To Use Code Base
