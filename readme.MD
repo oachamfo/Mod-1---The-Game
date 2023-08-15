@@ -44,3 +44,6 @@ No special installation instructions. No backend DB to set up. Just deploy as on
 
 #License
 MIT (c) Owusuduah Achamfour
+
+#Link to Game
+https://oachamfo.github.io/Mod-1---The-Game/
